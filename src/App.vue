@@ -90,6 +90,8 @@ export default {
                 this.posts = response.data;
             } catch (e) {
                 alert('Ошибка!')
+            } finally {
+                this.isPostsLoading = false;
             }
         }
     },
