@@ -133,12 +133,15 @@ export default {
     .page__wrapper {
         display: flex;
         align-items: center;
+        justify-content: center;
         margin-top: 15px;
     }
 
     .page {
         border: 1px solid dimgrey;
         padding: 10px;
+        cursor: pointer;
+        margin-right: 5px;
     }
 
     .current-page {
