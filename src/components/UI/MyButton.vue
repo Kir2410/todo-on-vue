@@ -16,5 +16,6 @@
         border: 1px solid steelblue;
         background: none;
         color: steelblue;
+        cursor: pointer;
     }
 </style>
